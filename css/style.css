@@ -147,7 +147,6 @@ header > nav > ul > li > nav > ul > li:hover > a {
         flex-direction: row;
         line-height: 90px;
         padding: 0 3rem;
-        position: fixed;
         text-align: left;
         width: 100%;
     }
@@ -213,4 +212,60 @@ header > nav > ul > li > nav > ul > li:hover > a {
         right: -50%;
         width: 196px;
     }
+}
+
+article {
+    margin: 2rem 10% 10% 10%;
+}
+
+section {
+    float: left;
+}
+
+figure {
+    border-radius: 2%;
+    overflow:hidden;
+}
+
+aside {
+    float: right;
+}
+
+div#infos {
+    border-radius: 25px;
+    background-color: #444444;
+    border: 2px solid #73AD21;
+    color: white;
+    padding: 20px;
+    width: 251px;
+    height: 451px;
+}
+
+div#infos > h3 {
+    padding: 0.5rem;
+}
+
+.retro {
+    color: #d7ceb2;
+    text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
+    font: 80px 'BazarMedium';
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    padding-bottom: 1rem;
+}
+
+dd {
+    margin-left: 1rem;
+    padding: 0.3rem;
+}
+
+img#location {
+    width: 16px;
+    height: 16px;
+}
+
+div#vip {
+    margin-top: 50px;
+    font-size: -webkit-xxx-large;
 }
